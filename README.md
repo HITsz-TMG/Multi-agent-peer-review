@@ -9,6 +9,8 @@
 
 ## :sparkles: Overview
 
+This repository contains official implementation of our paper [Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration](https://arxiv.org/abs/2311.08152).
+
 We introduce a multi-agent collaboration strategy that emulates the academic peer review process. Each agent independently constructs its own solution, provides reviews on the solutions of others, and assigns confidence levels to its reviews. Upon receiving peer reviews, agents revise their initial solutions.
 
 Extensive experiments on three different types of reasoning tasks show that our collaboration approach delivers superior accuracy across all ten datasets compared to existing methods. 
