@@ -25,14 +25,14 @@ If you have any question, please feel free to contact us by e-mail: xuzhenran.hi
 
 <p align="center" width="100%"><img src="overview.png" alt="Multi-agent Peer Review" style="width: 100%;  display: block; margin: auto;"></p>
 
-## :rotating_light: Usage
+## :package: Usage
     
 ### Environment
 
 ```
 conda create -n MAPR python=3.9
 conda activate MAPR
-pip install -r requirements.txt
+pip install openai==1.6.0 tqdm==4.64.0 jsonlines==4.0.0
 ```
 
 ### Run
@@ -70,3 +70,18 @@ Take GSM8K dataset as an example.
 python eval.py --task GSM8K --method peer_review --time_flag 1113
 ```
 
+
+## :memo: Citation
+If you use this software in your research, please cite it using:
+
+```bibtex
+@misc{xu2023reasoninglargelanguagemodels,
+      title={Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration}, 
+      author={Zhenran Xu and Senbao Shi and Baotian Hu and Jindi Yu and Dongfang Li and Min Zhang and Yuxiang Wu},
+      year={2023},
+      eprint={2311.08152},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2311.08152}, 
+}
+```
